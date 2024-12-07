@@ -1,0 +1,130 @@
+.header {
+    max-width: 1440rem;
+    background-color: var(--color_white);
+    height: 75px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0 5% 0 5%;
+    height: 75px;
+}
+
+.inner__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 125px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 0 0;
+}
+
+.logo-vector {
+    fill: var(--color_green);
+    width: 25px;
+    height: 25px;
+}
+.logo-vector:hover {
+    fill: var(--color_dark_blue);
+    transition-duration: 0.5s;
+}
+
+.logo-stratico {
+    fill: var(--color_dark_blue);
+    padding: 5px 0 0 5px;
+    width: 100px;
+    height: 25px;
+}
+
+.logo-stratico:hover {
+    fill:#C1D585;;
+    transition-duration: 0.5s;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 585px;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    color: var(--color_dark_blue);
+}
+
+.menu__link:hover {
+    color:#C1D585;;
+    transition-duration: 0.5s;
+} 
+
+
+.menu__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.menu__btn-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--color_dark_blue);
+    border-radius: 30px;
+    padding: 15px;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 90px;
+    height: 44px;
+    @include m.d-flex(center, center, nowrap, row);
+    background: var(--color_white);
+    color: var(--color_dark_blue);
+    cursor: pointer;
+}
+
+.menu__btn-white:hover {
+    background-color: var(--color_dark_blue);
+    color: var(--color_white);
+    transition-duration: 0.5s;
+}
+
+.menu__btn-blue {
+    border: 2px solid var(--color_dark_blue);
+    border-radius: 30px;
+    padding: 15px;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 130px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color_dark_blue);
+    color:var(--color_white);
+    cursor: pointer;
+}
+
+.menu__btn-blue:hover {
+    background-color: var(--color_white);
+    color: var(--color_dark_blue);
+    transition-duration: 0.5s;
+    }
